@@ -107,10 +107,6 @@ BOARD_CHARGER_DISABLE_INIT_BLANK := true
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
-# Shims
-#TARGET_LD_SHIM_LIBS := \
-#    /vendor/lib/hw/camera.msm8953.so|libshims_camera.so
-
 # Config
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 

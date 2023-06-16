@@ -166,7 +166,6 @@ PRODUCT_PACKAGES += \
 		libgui_vendor \
 		libstdc++.vendor \
 		Snap \
-		libshims_camera
 
 # Lineage livedisplay
 PRODUCT_PACKAGES += \
