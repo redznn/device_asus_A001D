@@ -139,6 +139,8 @@ TARGET_QCOM_NO_FM_FIRMWARE := true
 TARGET_NO_RPC := true
 
 # HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+   $(DEVICE_PATH)/device_framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # HWUI
