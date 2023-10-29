@@ -234,6 +234,7 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
+    android.hardware.radio@1.2.vendor \
     FMRadio \
     libfmjni
 
