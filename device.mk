@@ -110,6 +110,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0.vendor
 
+# GNSS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.gnss@1.0.vendor \
+    android.hardware.gnss@2.1.vendor
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
