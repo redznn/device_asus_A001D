@@ -68,7 +68,6 @@ persist.camera.video.CDS=false
 
 # Charger
 ro.charger.disable_init_blank=true 
-ro.charger.enable_suspend=true
 
 # Cne/Dpm
 persist.vendor.cne.feature=1 
