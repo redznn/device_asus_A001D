@@ -21,6 +21,11 @@ include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
 
+# Create symbolic links for msadp
+$(shell  mkdir -p $(TARGET_OUT_VENDOR)/firmware; \
+	ln -sf /dev/block/bootdevice/by-name/msadp \
+	$(TARGET_OUT_VENDOR)/firmware/msadp)
+
 LOCAL_MODULE := wifi_symlinks
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := FAKE
