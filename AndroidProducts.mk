@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_A001D.mk
+    $(LOCAL_DIR)/arrow_A001D.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_A001D-user \
-    lineage_A001D-userdebug \
-    lineage_A001D-eng
+    arrow_A001D-user \
+    arrow_A001D-userdebug \
+    arrow_A001D-eng
