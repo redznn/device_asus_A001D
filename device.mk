@@ -31,7 +31,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # RRO (Runtime Resource Overlay)
 PRODUCT_ENFORCE_RRO_TARGETS := *
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Snap
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
 # Board
@@ -190,8 +189,7 @@ PRODUCT_PACKAGES += \
 		vendor.qti.hardware.camera.device@1.0 \
 		libdng_sdk.vendor \
 		libgui_vendor \
-		libstdc++.vendor \
-		Snap \
+		libstdc++.vendor 
 
 # Component overrides
 PRODUCT_COPY_FILES += \
