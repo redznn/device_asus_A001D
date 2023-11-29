@@ -188,6 +188,7 @@ PRODUCT_PACKAGES += \
 		vendor.qti.hardware.camera.device@1.0 \
 		libdng_sdk.vendor \
 		libgui_vendor \
+		libshims_camera \
 		libstdc++.vendor 
 
 # Component overrides
