@@ -536,4 +536,7 @@
 
     <dimen name="rounded_corner_radius_top">90px</dimen>
     <dimen name="rounded_corner_radius_bottom">90px</dimen>
+
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
 </resources>
