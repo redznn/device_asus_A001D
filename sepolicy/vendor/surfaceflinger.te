@@ -1,3 +1,4 @@
 r_dir_file(surfaceflinger, sysfs_kgsl)
 allow surfaceflinger bootanim:file { read };
 allow surfaceflinger bootanim:process { getattr };
+allow surfaceflinger untrusted_app:process { getattr };
